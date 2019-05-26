@@ -30,4 +30,5 @@ for link in links:
   
   turtle_data[turtle_name] = turtle_data_list
   
-  
+import pandas as pd
+turtle_df = pd.DataFrame.from_dict(turtle_data, orient = "index")
